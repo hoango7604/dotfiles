@@ -128,8 +128,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-export VXR_ALIASRC_DIR="$HOME/Projects/Vexere/internal/vxr-shared-config"
-source ~/Projects/Vexere/internal/vxr-shared-config/vxr-all-aliasrc
+export COMMON_CONFIG_DIR="$HOME/.common-config"
+source $COMMON_CONFIG_DIR/vxr-all-aliasrc
 export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 
 export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
