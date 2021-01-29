@@ -1,8 +1,8 @@
 #!/bin/sh
 # Clone dotfiles in to workspace
 mkdir -p $HOME/workspace
-git clone https://github.com/[your_name]/dotfiles.git $HOME/workspace/dotfiles
-cd $HOME/workspace/dotfiles
+git clone https://github.com/hoango7604/dotfiles.git $HOME/dotfiles
+cd $HOME/dotfiles
 
 # Restore runtime config
 while read f; do
