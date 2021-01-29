@@ -51,10 +51,10 @@ ZSH_DISABLE_COMPFIX="true"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -139,17 +139,8 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-alias android-pixel-start="emulator -avd Pixel_2_API_28"
-alias android-nexus-start="emulator -avd Nexus_4_API_29"
-
+# ruby
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=/usr/local/opt/openssl@1.1"
-
-alias gdf="git difftool --tool=vimdiff"
-alias nb="cd ~/Downloads/Setup/IDE/netbeans/bin && ./netbeans"
-
-alias rn-st="npx react-native start"
-alias rn-ios="npx react-native run-ios"
-alias rn-and="npx react-native run-android"
 
 # htop
 export PATH="/usr/local/opt/ncurses/bin:$PATH"
