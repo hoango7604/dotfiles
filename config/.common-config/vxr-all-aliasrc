@@ -1,0 +1,16 @@
+alias kafka-prod="source $VXR_ALIASRC_DIR/vxr-gcloud-kafka-prodrc"
+alias kafka-uat="source $VXR_ALIASRC_DIR/vxr-gcloud-kafka-uatrc"
+alias vexere="source $VXR_ALIASRC_DIR/vxr-gcloud-vexererc"
+alias webnhaxe="source $VXR_ALIASRC_DIR/vxr-gcloud-webnhaxerc"
+alias packngo="source $VXR_ALIASRC_DIR/vxr-gcloud-pack-n-go"
+
+source $VXR_ALIASRC_DIR/vxr-common-alias
+source $VXR_ALIASRC_DIR/vxr-gcloud-common-alias
+source $VXR_ALIASRC_DIR/vxr-sails-alias
+source $VXR_ALIASRC_DIR/vxr-node-alias
+source $VXR_ALIASRC_DIR/vxr-cloudflare-alias
+source $VXR_ALIASRC_DIR/vxr-redis-alias
+source $VXR_ALIASRC_DIR/vxr-git-alias
+source $VXR_ALIASRC_DIR/vxr-kafka-alias
+
+export PATH=$PATH:$VXR_ALIASRC_DIR/bin

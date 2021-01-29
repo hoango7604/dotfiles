@@ -2,3 +2,4 @@
 .zshrc
 .tmux.conf
 .k9s
+.common-config
