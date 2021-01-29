@@ -1,21 +1,17 @@
+# Common config
+
+### Description
+- This is some common alias on zsh that speed up my working flow: git, gcloud, kubectl, etc
+- These configs are based on [vxr-shared-config](https://gitlab.vexere.net/internal/vxr-shared-config)
+
+### How to use
 
 Run this command to install
-```bash
-git clone git@gitlab.vexere.net:internal/vxr-shared-config.git
-echo "export VXR_ALIASRC_DIR=/path/to/vxr-shared-config" >> ~/.zshrc
-echo "source $VXR_ALIASRC_DIR/vxr-all-aliasrc" >> ~/.zshrc
 
+```bash
+echo "export COMMON_CONFIG_DIR=/path/to/.common-config" >> ~/.zshrc
+echo "source $COMMON_CONFIG_DIR/.common-config" >> ~/.zshrc
+source ~/.zshrc
 ```
 
-OR
-
-# Add to end of file ~/.zshrc
-export VXR_ALIASRC_DIR=/path/to/vxr-shared-config
-source $VXR_ALIASRC_DIR/vxr-all-aliasrc
-
-# exit editor and reload
-source ~/.zshrc
-
-# After that to change to kafka-prod cluster just type kafka-prod, or vexere to change to vexere cluster
-# Or type vexere to change to vexere cluster, kafka-prod to change to kafka-prod cluster, kafka-uat to change to kafka-uat cluster
-
+After that to change to *kafka-prod cluster* just type *kafka-prod*, or *vexere* to change to *vexere* cluster
