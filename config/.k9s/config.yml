@@ -13,18 +13,18 @@ k9s:
     fullScreenLogs: false
     textWrap: false
     showTime: false
-  currentContext: gke_vexere-218206_asia-southeast1-a_vexere
-  currentCluster: gke_vexere-218206_asia-southeast1-a_vexere
+  currentContext: gke_gothic-context-296516_asia-southeast1-a_pack-n-go
+  currentCluster: gke_gothic-context-296516_asia-southeast1-a_pack-n-go
   clusters:
     gke_gothic-context-296516_asia-southeast1-a_pack-n-go:
       namespace:
-        active: gitlab-managed-apps
+        active: ""
         favorites:
         - all
         - default
         - gitlab-managed-apps
       view:
-        active: deploy
+        active: svc
       featureGates:
         nodeShell: false
       shellPod:
