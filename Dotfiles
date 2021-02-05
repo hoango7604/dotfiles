@@ -1,6 +1,5 @@
 .vimrc
 .zshrc
-.oh-my-zsh
 .tmux.conf
 .k9s
 .common-config
