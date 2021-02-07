@@ -131,12 +131,20 @@ export COMMON_CONFIG_DIR="$HOME/.common-config"
 source $COMMON_CONFIG_DIR/vxr-all-aliasrc
 export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 
-export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
+# export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# function to select java version
+# syntax: jdk 1.8/9/11/13
+jdk() {
+	version=$1
+	export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
+	java -version
+}
 
 # ruby
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=/usr/local/opt/openssl@1.1"
@@ -168,3 +176,4 @@ export TERM=xterm-256color
 
 # vim
 export MYVIMRC="~/.vimrc"
+
