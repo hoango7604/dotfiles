@@ -1,7 +1,7 @@
 #!/bin/sh
-# Clone dotfiles in to workspace
-git clone https://github.com/hoango7604/dotfiles.git $HOME/dotfiles
-cd $HOME/dotfiles
+# Pull latest config of dotfiles
+cd ~/dotfiles
+git pull
 
 # Restore runtime config
 while read f; do

@@ -5,6 +5,12 @@
 - If there are new config files wanting to backup, add it's directory into Dotfiles line-by-line.
 - *vimrc* is just for sourcing vim config files. The *real* vim config files is being stored in [hoango7604/vim-config](https://github.com/hoango7604/vim-config).
 
+### PREREQUISITES
+- Install homebrew:
+    ```
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
 ### How to
 - Backup files: *./backup.sh*
 - Restore files: *./restore.sh*

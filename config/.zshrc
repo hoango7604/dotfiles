@@ -9,7 +9,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/hoango7604/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -80,6 +80,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(
   git
   zsh-autosuggestions
+  zsh-syntax-highlighting
   docker
   docker-compose
   npm
@@ -116,13 +117,11 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/hoango7604/Downloads/Setup/google-sdk/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/hoango7604/Downloads/Setup/google-sdk/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '$HOME/Downloads/Setup/google-sdk/google-cloud-sdk/path.zsh.inc' ]; then . '$HOME/Downloads/Setup/google-sdk/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/hoango7604/Downloads/Setup/google-sdk/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/hoango7604/Downloads/Setup/google-sdk/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '$HOME/Downloads/Setup/google-sdk/google-cloud-sdk/completion.zsh.inc' ]; then . '$HOME/Downloads/Setup/google-sdk/google-cloud-sdk/completion.zsh.inc'; fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
