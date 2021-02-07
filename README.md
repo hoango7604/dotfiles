@@ -6,12 +6,40 @@
 - *vimrc* is just for sourcing vim config files. The *real* vim config files is being stored in [hoango7604/vim-config](https://github.com/hoango7604/vim-config).
 
 ### PREREQUISITES
-- Install homebrew:
-    ```
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
 
-### How to
+#### Install [Homebrew](https://brew.sh/):
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+#### Install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh):
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+When done, sourcing ~/.zshrc
+```
+source ~/.zshrc
+```
+___
+If you have trouble in sourcing .zshrc, execute this command:
+```
+compaudit | xargs chmod g-w,o-w
+```
+___
+
+#### Install zsh plugins: [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions), [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+#### Install zsh theme [powellevel10k](https://github.com/romkatv/powerlevel10k)
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+### USAGE
 - Backup files: *./backup.sh*
 - Restore files: *./restore.sh*
 ___
