@@ -3,5 +3,5 @@
 .tmux.conf
 .k9s
 .common-config
-.oh-my-zsh/custom
+.oh-my-zsh
 Brewfile
