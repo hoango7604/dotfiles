@@ -3,4 +3,5 @@
 .tmux.conf
 .k9s
 .common-config
+.p10k.zsh
 Brewfile

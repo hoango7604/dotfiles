@@ -114,9 +114,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '$HOME/Downloads/Setup/google-sdk/google-cloud-sdk/path.zsh.inc' ]; then . '$HOME/Downloads/Setup/google-sdk/google-cloud-sdk/path.zsh.inc'; fi
 
@@ -141,9 +138,9 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # function to select java version
 # syntax: jdk 1.8/9/11/13
 jdk() {
-	version=$1
-	export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
-	java -version
+  version=$1
+  export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
+  java -version
 }
 
 # ruby
@@ -177,3 +174,5 @@ export TERM=xterm-256color
 # vim
 export MYVIMRC="~/.vimrc"
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
