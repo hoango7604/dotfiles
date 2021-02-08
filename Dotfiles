@@ -4,5 +4,5 @@
 .k9s
 .common-config
 .p10k.zsh
-.iterm-colors
+.iterm-theme
 Brewfile

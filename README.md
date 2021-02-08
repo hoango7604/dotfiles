@@ -38,6 +38,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
+___
+Note: If you are using iTerm2, you can use custom theme which (in my opinion) is suit most with the vim 'gruvbox' theme:
+<Command> + , (Preferences) --> Profiles --> Colors --> Color Presets... --> Imports... --> (<Command> + <Shift> + . to show hidden files) --> Select ~/.iterm-themes/MyTheme.itermcolors
+___
 
 ### USAGE
 - Backup files: *./backup.sh*
