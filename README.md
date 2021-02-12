@@ -63,6 +63,7 @@ Reload Tmux to apply changes:
 ```
 tmux source ~/.tmux.conf
 ```
+Install tmux packages using Tmux Package Manager: prefix (\<Command\> + A) + I
 ___
 Some configs requires *Meta* key for shortcut. You need to set Option keys (right + left Option) to make it works: \<Command\> + ' , ' (Preferences) --> Profiles --> Keys --> Tick Left Option Key and Right Option Key to value *Esc+*
 ![set meta key](./screenshots/set-meta-key.png)
