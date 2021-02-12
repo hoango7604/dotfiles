@@ -38,14 +38,32 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
-___
-Note: If you are using iTerm2, you can use custom theme which (in my opinion) is suit most with the vim 'gruvbox' theme:
-<Command> + , (Preferences) --> Profiles --> Colors --> Color Presets... --> Imports... --> (<Command> + <Shift> + . to show hidden files) --> Select ~/.iterm-themes/MyTheme.itermcolors
-___
 
 ### USAGE
-- Backup files: *./backup.sh*
-- Restore files: *./restore.sh*
+- Backup files: __*./backup.sh*__
+- Restore files: __*./restore.sh*__
+    ___
+    Notes:
+- If you want to backup some other files/directories: place them on *Dotfiles* file (make sure they are not git projects)
+- If you can't execute __*./backup.sh*__ or __*./restore.sh*__, make sure to execute: __*chmod +x ./backup.sh ./restore.sh*__
+- If you are using iTerm2, you can use custom theme provided, which (in my opinion) suits the most with the vim 'gruvbox' theme:
+    \<Command\> + ' , ' (Preferences) --> Profiles --> Colors --> Color Presets... --> Imports... --> (\<Command\> + \<Shift\> + ' . ' to show hidden files) --> Select ~/.iterm-themes/MyTheme.itermcolors
+    ![import color preset](./screenshots/import-color-preset.png)
+    ![select my theme](./screenshots/select-my-theme.png)
+- After reboot iTerm2, if terminal icons are missing, run command __*p10k configure*__ to install missing fonts. After reboot iTerm2 again, the missing icons are now rendered perfectly.
+    ___
+
+### OTHER CONFIG (AFTER RESTORED CONFIG)
+#### Tmux
+My custom tmux configurations are placed on file *~/.tmux.conf*. All you need to do in order to use is to install package [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm):
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+Reload Tmux to apply changes:
+```
+tmux source ~/.tmux.conf
+```
 ___
-Note: If you can't execute *./backup.sh* or *./restore.sh*, make sure to execute: *chmod +x ./backup.sh ./restore.sh*
+Some configs requires *Meta* key for shortcut. You need to set Option keys (right + left Option) to make it works: \<Command\> + ' , ' (Preferences) --> Profiles --> Keys --> Tick Left Option Key and Right Option Key to value *Esc+*
+![set meta key](./screenshots/set-meta-key.png)
 ___
