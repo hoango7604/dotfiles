@@ -6,3 +6,4 @@
 .p10k.zsh
 .iterm-theme
 Brewfile
+Brewfile.lock.json

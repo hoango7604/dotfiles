@@ -115,10 +115,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '$HOME/Downloads/Setup/google-sdk/google-cloud-sdk/path.zsh.inc' ]; then . '$HOME/Downloads/Setup/google-sdk/google-cloud-sdk/path.zsh.inc'; fi
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 
 # The next line enables shell command completion for gcloud.
-if [ -f '$HOME/Downloads/Setup/google-sdk/google-cloud-sdk/completion.zsh.inc' ]; then . '$HOME/Downloads/Setup/google-sdk/google-cloud-sdk/completion.zsh.inc'; fi
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
