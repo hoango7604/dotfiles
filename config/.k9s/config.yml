@@ -24,58 +24,7 @@ k9s:
         - default
         - gitlab-managed-apps
       view:
-        active: svc
-      featureGates:
-        nodeShell: false
-      shellPod:
-        image: busybox:1.31
-        namespace: default
-        limits:
-          cpu: 100m
-          memory: 100Mi
-      portForwardAddress: localhost
-    gke_gothic-context-296516_us-central1-c_pack-n-go:
-      namespace:
-        active: ""
-        favorites:
-        - all
-        - default
-      view:
-        active: pod
-      featureGates:
-        nodeShell: false
-      shellPod:
-        image: busybox:1.31
-        namespace: default
-        limits:
-          cpu: 100m
-          memory: 100Mi
-      portForwardAddress: localhost
-    gke_vexere-218206_asia-southeast1-a_vexere:
-      namespace:
-        active: ""
-        favorites:
-        - all
-        - default
-      view:
-        active: pod
-      featureGates:
-        nodeShell: false
-      shellPod:
-        image: busybox:1.31
-        namespace: default
-        limits:
-          cpu: 100m
-          memory: 100Mi
-      portForwardAddress: localhost
-    minikube:
-      namespace:
-        active: default
-        favorites:
-        - all
-        - default
-      view:
-        active: pods
+        active: ctx
       featureGates:
         nodeShell: false
       shellPod:
