@@ -5,13 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-# fi
-
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -126,6 +119,10 @@ source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.in
 # The next line enables shell command completion for gcloud.
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
@@ -134,7 +131,6 @@ export COMMON_CONFIG_DIR="$HOME/.common-config"
 source $COMMON_CONFIG_DIR/vxr-all-aliasrc
 export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 
-# export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
@@ -148,21 +144,6 @@ jdk() {
   export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
   java -version
 }
-
-# ruby
-export RUBY_CONFIGURE_OPTS="--with-openssl-dir=/usr/local/opt/openssl@1.1"
-
-# htop
-export PATH="/usr/local/opt/ncurses/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/ncurses/lib"
-export CPPFLAGS="-I/usr/local/opt/ncurses/include"
-export PKG_CONFIG_PATH="/usr/local/opt/ncurses/lib/pkgconfig"
-
-# openssl
-export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
-export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
-export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
 
 # vim
 export FZF_DEFAULT_COMMAND='rg --files'

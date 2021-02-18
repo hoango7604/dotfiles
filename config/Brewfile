@@ -1,4 +1,4 @@
-# 'brew tap'
+# brew taps
 tap "derailed/k9s"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -6,43 +6,36 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "mongodb/brew"
 
-# 'brew install'
+# brew formulaes
 brew "cmake"
 brew "fd"
 brew "fzf"
-brew "gitui"
-brew "openssl@1.1"
-brew "unbound"
+brew "gmp"
 brew "go"
 brew "helm"
 brew "htop"
 brew "k9s"
 brew "kubernetes-cli"
+brew "openssl@1.1"
+brew "libyaml"
 brew "minikube"
-brew "mono", link: false
-brew "neovim"
-brew "node", link: false
 brew "nvm"
 brew "python@3.8"
 brew "rbenv"
 brew "redis", restart_service: true
 brew "ripgrep"
-brew "ruby"
 brew "tldr"
 brew "tmux"
 brew "tree"
+brew "unbound"
 brew "vim"
 brew "watchman"
-brew "mongodb/brew/mongodb-community"
 
-# 'brew install --cask'
+# brew casks
 cask "adoptopenjdk"
 cask "android-studio"
 cask "another-redis-desktop-manager"
-cask "boom"
-cask "boom-3d"
 cask "dbeaver-community"
 cask "discord"
 cask "font-hack-nerd-font"
@@ -52,7 +45,6 @@ cask "gotiengviet"
 cask "iterm2"
 cask "karabiner-elements"
 cask "messenger"
-cask "mongodb-compass"
 cask "ngrok"
 cask "postman"
 cask "react-native-debugger"
