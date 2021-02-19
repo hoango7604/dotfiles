@@ -13,8 +13,8 @@ k9s:
     fullScreenLogs: false
     textWrap: false
     showTime: false
-  currentContext: gke_vexere-218206_asia-southeast1-a_vexere
-  currentCluster: gke_vexere-218206_asia-southeast1-a_vexere
+  currentContext: gke_gothic-context-296516_asia-southeast1_pack-n-go
+  currentCluster: gke_gothic-context-296516_asia-southeast1_pack-n-go
   clusters:
     gke_gothic-context-296516_asia-southeast1_pack-n-go:
       namespace:
