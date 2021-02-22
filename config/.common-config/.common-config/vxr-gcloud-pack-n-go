@@ -1,4 +1,0 @@
-gcloud config configurations activate default
-gcloud container clusters get-credentials pack-n-go --zone asia-southeast1-a --project gothic-context-296516
-export PROJECT_ID="$(gcloud config get-value project -q)"
-kubectl config use-context gke_gothic-context-296516_asia-southeast1-a_pack-n-go

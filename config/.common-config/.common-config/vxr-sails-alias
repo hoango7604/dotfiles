@@ -1,5 +1,0 @@
-alias sgena="sails generate action"
-alias sgenr="sails generate response"
-alias sgenc="sails generate controller"
-alias sgenm="sails generate model"
-alias sgenh="sails generate helper"

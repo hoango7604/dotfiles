@@ -1,1 +1,0 @@
-source ../../deploy-alias.sh
