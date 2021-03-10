@@ -13,14 +13,31 @@ k9s:
     fullScreenLogs: false
     textWrap: false
     showTime: false
-  currentContext: gke_vexere-218206_asia-southeast1-a_vexere
-  currentCluster: gke_vexere-218206_asia-southeast1-a_vexere
+  currentContext: gke_gothic-context-296516_asia-southeast1-a_pack-n-go
+  currentCluster: gke_gothic-context-296516_asia-southeast1-a_pack-n-go
   clusters:
-    gke_gothic-context-296516_asia-southeast1_pack-n-go:
+    gke_gothic-context-296516_asia-southeast1-a_pack-n-go:
       namespace:
         active: ""
         favorites:
+        - all
+        - default
         - gitlab-managed-apps
+      view:
+        active: svc
+      featureGates:
+        nodeShell: false
+      shellPod:
+        image: busybox:1.31
+        namespace: default
+        limits:
+          cpu: 100m
+          memory: 100Mi
+      portForwardAddress: localhost
+    gke_gothic-context-296516_us-central1-c_pack-n-go:
+      namespace:
+        active: ""
+        favorites:
         - all
         - default
       view:
@@ -36,11 +53,29 @@ k9s:
       portForwardAddress: localhost
     gke_vexere-218206_asia-southeast1-a_vexere:
       namespace:
-        active: default
+        active: ""
         favorites:
+        - all
         - default
       view:
         active: pod
+      featureGates:
+        nodeShell: false
+      shellPod:
+        image: busybox:1.31
+        namespace: default
+        limits:
+          cpu: 100m
+          memory: 100Mi
+      portForwardAddress: localhost
+    minikube:
+      namespace:
+        active: default
+        favorites:
+        - all
+        - default
+      view:
+        active: pods
       featureGates:
         nodeShell: false
       shellPod:

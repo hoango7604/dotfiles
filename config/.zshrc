@@ -80,6 +80,7 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
+  zsh-completions
   docker
   docker-compose
   npm
@@ -128,7 +129,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 export COMMON_CONFIG_DIR="$HOME/.common-config"
-source $COMMON_CONFIG_DIR/vxr-all-aliasrc
+source $COMMON_CONFIG_DIR/config.zsh
 export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
