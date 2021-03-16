@@ -1,6 +1,7 @@
-# visual studio code
+# IDE aliases
 alias c='code .'
 alias ws='webstorm .'
+alias vim='mvim -v'
 
 alias pvpssng='cd ~/Projects/vpassenger'
 alias pvxrd='cd ~/Projects/Vexere/web/vxrd'

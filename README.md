@@ -59,9 +59,10 @@ Using *restore.sh* file to restore all your current configs to the backed up con
 - If you want to back up some other files/directories: place them on *Dotfiles* file (make sure they are not git projects)
 - If you can't execute __*./backup.sh*__ or __*./restore.sh*__, make sure to execute: __*chmod +x ./backup.sh ./restore.sh*__
 - If you are using iTerm2, you can use custom theme provided, which (in my opinion) suits the most with the vim 'gruvbox' theme:
-    \<Command\> + ' , ' (Preferences) --> Profiles --> Colors --> Color Presets... --> Imports... --> (\<Command\> + \<Shift\> + ' . ' to show hidden files) --> Select ~/.iterm-themes/MyTheme.itermcolors
+    \<Command\> + ' , ' (Preferences) --> Profiles --> Colors --> Color Presets... --> Imports... --> (\<Command\> + \<Shift\> + ' . ' to show hidden files) --> Select ~/.iterm/themes/MyTheme.itermcolors
     ![import color preset](./screenshots/import-color-preset.png)
     ![select my theme](./screenshots/select-my-theme.png)
+- To import profile to iTerm2: \<Command\> + ' , ' (Preferences) --> Profiles --> Other Actions... --> Import JSON Profiles... --> (\<Command\> + \<Shift\> + ' . ' to show hidden files) --> Select ~/.iterm/profile.json
 - After reboot iTerm2, if terminal icons are missing, run command __*p10k configure*__ to install missing fonts. After reboot iTerm2 again, the missing icons are now rendered perfectly.
     ___
 
