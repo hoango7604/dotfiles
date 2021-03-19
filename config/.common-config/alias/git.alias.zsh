@@ -21,7 +21,8 @@ alias gac="git ac"
 alias gacp="git acp"
 alias gcp="git cp"
 alias gadd="git add ."
-alias gmc="git merge --continue && git push"
+alias gmc="git merge --continue"
+alias gmcp="git merge --continue && git push"
 alias gmab="git merge --abort"
 alias gpsu="gp --set-upstream origin"
 alias grsh="git reset --hard"
@@ -39,3 +40,6 @@ compdef _git gcop=git-branch
 
 function gbd() { git branch -D "$1" && git push -d origin "$1"; }
 compdef _git gbd=git-branch
+
+function gcrp() { git cherry-pick "$@" }
+compdef _git gcrp=git-cherry-pick
