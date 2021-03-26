@@ -40,7 +40,7 @@ k9s:
         favorites:
         - default
       view:
-        active: pod
+        active: configmaps
       featureGates:
         nodeShell: false
       shellPod:
