@@ -1,3 +1,5 @@
+export PATH="$COMMON_CONFIG_DIR/git-scripts:$PATH"
+
 alias gbrl="git branch --sort=-committerdate"
 alias g="git"
 alias gcl="git clone"

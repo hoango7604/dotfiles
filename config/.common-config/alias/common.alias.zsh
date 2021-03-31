@@ -18,6 +18,7 @@ alias pvrcon='cd ~/Projects/Vexere/backend/vroute-consumer'
 alias pusrtrk='cd ~/Projects/Vexere/backend/user-tracking-script'
 alias pusrprf='cd ~/Projects/Vexere/backend/user-profile-service'
 alias purlrsv='cd ~/Projects/Vexere/backend/url-resolver-service'
+alias pbmsbat='cd ~/Projects/Vexere/backend/bms-batch-job'
 
 # alias for open android emulator
 alias and-px-st="emulator -avd Pixel_2_API_28"
