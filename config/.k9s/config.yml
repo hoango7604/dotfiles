@@ -3,6 +3,7 @@ k9s:
   maxConnRetry: 5
   enableMouse: false
   headless: false
+  logoless: false
   crumbsless: false
   readOnly: false
   noIcons: false
@@ -40,7 +41,7 @@ k9s:
         favorites:
         - default
       view:
-        active: configmaps
+        active: service
       featureGates:
         nodeShell: false
       shellPod:
