@@ -61,7 +61,7 @@ my $Graph_margin_left     = 2;
 my $Graph_margin_right    = 1;
 my $Graph_symbol_commit   = '⧭';
 my $Graph_symbol_merge    = '⟁';
-my $Graph_symbol_overpass = '═';
+my $Graph_symbol_overpass = '─';
 my $Graph_symbol_root     = '⤲';
 my $Graph_symbol_tip      = '⟗';
 my $Graph_symbol_tr;
@@ -635,15 +635,6 @@ sub vis_xfrm
 	} elsif ($Style == 15) {
 		$s =~ tr/ABD.efg.IKm.xyz/┣┫━.┏┳┓.┃╋━.┗┻┛/;
 	}
-	# if ($Style == 1) {
-	# 	$s =~ tr/ABD.efg.IKO.xyz/├┤─.┌┬┐.│┼─.└┴┘/;
-	# } elsif ($Style == 2) {
-	# 	$s =~ tr/ABD.efg.IKO.xyz/╠╣═.╔╦╗.║╬─.╚╩╝/;
-	# } elsif ($Style == 10) {
-	# 	$s =~ tr/ABD.efg.IKO.xyz/├┤─.╭┬╮.│┼─.╰┴╯/;
-	# } elsif ($Style == 15) {
-	# 	$s =~ tr/ABD.efg.IKO.xyz/┣┫━.┏┳┓.┃╋━.┗┻┛/;
-	# }
 
 	return $Graph_symbol_tr->($s);
 }
