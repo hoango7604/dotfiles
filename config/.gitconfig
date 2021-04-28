@@ -1,0 +1,12 @@
+[alias]
+	cob = "!f() { git checkout -b \"$1\" && git push --set-upstream origin \"$1\"; }; f"
+	ac = "!f() { git add -A && git commit -m \"$1\"; }; f"
+	acp = "!f() { git add -A && git commit -m \"$1\" && git push; }; f"
+	cp = "!f() { git commit -m \"$1\" && git push; }; f"
+[user]
+	name = Hoa Ngo
+	email = hoango7604@gmail.com
+[merge]
+	tool = vimdiff
+[mergetool]
+	keepBackup = false
