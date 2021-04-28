@@ -6,6 +6,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "teamookla/speedtest"
 tap "xo/xo"
 
 # brew formulaes
@@ -30,6 +31,7 @@ brew "python@3.8"
 brew "rbenv"
 brew "redis", restart_service: true
 brew "ripgrep"
+brew "speedtest"
 brew "tldr"
 brew "tmux"
 brew "tree"
