@@ -2,28 +2,31 @@
   "entries": {
     "tap": {
       "derailed/k9s": {
-        "revision": "fa96476e69fbbc9ba2dad868ca9e85f9fdc75460"
+        "revision": "1236c00a5c72f9a1b11d7dfb708cc1baee9ea20b"
       },
       "homebrew/bundle": {
-        "revision": "7fc90c69bf5fd24056eb8c5beceb62b4b434cb2e"
+        "revision": "c4cf96857c050dfa4f65f52109862dc68e55f60a"
       },
       "homebrew/cask": {
-        "revision": "4a1bc7d00d6296da36ec61922e366afbdc6e878f"
+        "revision": "bd9c754b7e4cf4ce4dce0db1a3617c47a11c953d"
       },
       "homebrew/cask-fonts": {
-        "revision": "0c6440de95677eecadfe6a66517c18a7d13967ca"
+        "revision": "b25fa4fdda52b20eab8c9a0fc978704f90801a4e"
       },
       "homebrew/cask-versions": {
-        "revision": "1742aeb3f7da4f58fe097ba68ab83f54324e54e9"
+        "revision": "32baf7b66a84d7536ff54d25db1f49b3fea2e410"
       },
       "homebrew/core": {
-        "revision": "001a79cba10e2c6fae9ae1b3c64bbce6e177f49c"
+        "revision": "2b3354ee2fc3b2b652c2bc81051810d7cbf873f6"
       },
       "homebrew/services": {
-        "revision": "31bb79235694bdd39143843fae37bdfb297cc5cd"
+        "revision": "e2bd49e4e7d55f8cc0a95220015390646ed7de1f"
       },
       "xo/xo": {
         "revision": "957f58c52754831a723168ecaf2a4dc9687ba107"
+      },
+      "teamookla/speedtest": {
+        "revision": "c4d2caae429a2d8a86161d9dfa28811bd606eac5"
       }
     },
     "brew": {
@@ -872,6 +875,10 @@
             }
           }
         }
+      },
+      "speedtest": {
+        "version": "1.0.0",
+        "bottle": false
       }
     },
     "cask": {
@@ -912,7 +919,7 @@
         }
       },
       "google-chrome": {
-        "version": "89.0.4389.90,4389.90",
+        "version": "89.0.4389.114,4389.114",
         "options": {
           "full_name": "google-chrome"
         }
@@ -954,7 +961,7 @@
         }
       },
       "postman": {
-        "version": "8.0.9",
+        "version": "8.0.10",
         "options": {
           "full_name": "postman"
         }
@@ -1024,9 +1031,9 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.0.9-23-g04d1142-dirty",
+        "HOMEBREW_VERSION": "3.0.10-71-ge265664-dirty",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "3bd113893af284153e0eabb6263014ae12e81eeb",
+        "Homebrew/homebrew-core": "2b3354ee2fc3b2b652c2bc81051810d7cbf873f6",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.4",
         "macOS": "11.2.3"
