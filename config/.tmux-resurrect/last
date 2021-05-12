@@ -1,0 +1,83 @@
+pane	back-end	0	:vapi	0	:-	0	:/Users/hoango7604/Projects/Vexere/backend/vapi	0	Vim	:/usr/local/Cellar/macvim/8.2-170/MacVim.app/Contents/MacOS/Vim -g -v
+pane	back-end	0	:vapi	0	:-	1	:/Users/hoango7604/Projects/Vexere/backend/vapi	0	zsh	:
+pane	back-end	0	:vapi	0	:-	2	:/Users/hoango7604/Projects/Vexere/backend/vapi	1	zsh	:
+pane	back-end	1	:vroute-api	0	:	0	:/Users/hoango7604/Projects/Vexere/backend/vroute-api	1	zsh	:
+pane	back-end	1	:vroute-api	0	:	1	:/Users/hoango7604/Projects/Vexere/backend/vroute-api	0	zsh	:
+pane	back-end	1	:vroute-api	0	:	2	:/Users/hoango7604/Projects/Vexere/backend/vroute-api	0	zsh	:
+pane	back-end	2	:vroute-consumer	0	:Z	0	:/Users/hoango7604/Projects/Vexere/backend/vroute-consumer	0	zsh	:
+pane	back-end	2	:vroute-consumer	0	:Z	1	:/Users/hoango7604/Projects/Vexere/backend/vroute-consumer	0	zsh	:
+pane	back-end	2	:vroute-consumer	0	:Z	2	:/Users/hoango7604/Projects/Vexere/backend/vroute-consumer	1	zsh	:
+pane	back-end	3	:user-profile	0	:	0	:/Users/hoango7604/Projects/Vexere/backend/user-profile-service	1	zsh	:
+pane	back-end	3	:user-profile	0	:	1	:/Users/hoango7604/Projects/Vexere/backend/user-profile-service	0	zsh	:
+pane	back-end	4	:vconfiguration	0	:	0	:/Users/hoango7604/Projects/Vexere/backend/vexere-configuration	1	zsh	:
+pane	back-end	4	:vconfiguration	0	:	1	:/Users/hoango7604/Projects/Vexere/backend/vexere-configuration	0	zsh	:
+pane	back-end	5	:vtracking	1	:*Z	0	:/Users/hoango7604/Projects/Vexere/backend/vtracking	0	Vim	:/usr/local/Cellar/macvim/8.2-170/MacVim.app/Contents/MacOS/Vim -g -v
+pane	back-end	5	:vtracking	1	:*Z	1	:/Users/hoango7604/Projects/Vexere/backend/vtracking	1	zsh	:
+pane	back-end	5	:vtracking	1	:*Z	2	:/Users/hoango7604/Projects/Vexere/backend/vtracking	0	zsh	:
+pane	clock	0	:clock	1	:*	0	:/Users/hoango7604	1	zsh	:
+pane	config	0	:vimrc	0	:-Z	0	:/Users/hoango7604/.config/nvim	1	Vim	:/usr/local/Cellar/macvim/8.2-170/MacVim.app/Contents/MacOS/Vim -g -v
+pane	config	0	:vimrc	0	:-Z	1	:/Users/hoango7604/.config/nvim	0	zsh	:
+pane	config	1	:zshrc	0	:	0	:/Users/hoango7604	1	zsh	:
+pane	config	2	:common-config	0	:Z	0	:/Users/hoango7604/.common-config	0	Vim	:/usr/local/Cellar/macvim/8.2-170/MacVim.app/Contents/MacOS/Vim -g -v
+pane	config	2	:common-config	0	:Z	1	:/Users/hoango7604	1	zsh	:
+pane	config	3	:tmux-conf	1	:*	0	:/Users/hoango7604	0	Vim	:/usr/local/Cellar/macvim/8.2-170/MacVim.app/Contents/MacOS/Vim -g -v /Users/hoango7604/.tmux.conf
+pane	config	3	:tmux-conf	1	:*	1	:/Users/hoango7604/.tmux-resurrect	1	zsh	:
+pane	config	4	:htop	0	:	0	:/Users/hoango7604	1	htop	:htop
+pane	config	5	:dotfiles	0	:	0	:/Users/hoango7604/dotfiles	0	zsh	:
+pane	config	5	:dotfiles	0	:	1	:/Users/hoango7604/dotfiles	1	zsh	:
+pane	config	6	:terminal	0	:Z	0	:/Users/hoango7604/Projects/Learning/shell-scripting	0	zsh	:
+pane	config	6	:terminal	0	:Z	1	:/Users/hoango7604	1	zsh	:
+pane	config	7	:hackintosh	0	:	0	:/Users/hoango7604/Downloads/Setup/Hackintosh/config/dell\ m4700	1	zsh	:
+pane	front-end	0	:nextvxr	1	:*Z	0	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	1	Vim	:/usr/local/Cellar/macvim/8.2-170/MacVim.app/Contents/MacOS/Vim -g -v
+pane	front-end	0	:nextvxr	1	:*Z	1	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	0	node	:node /Users/hoango7604/.nvm/versions/node/v12.19.0/bin/yarn dev
+pane	front-end	0	:nextvxr	1	:*Z	2	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	0	zsh	:
+pane	front-end	1	:vxrd	0	:	0	:/Users/hoango7604/Projects/Vexere/web/vxrd	1	zsh	:
+pane	front-end	1	:vxrd	0	:	1	:/Users/hoango7604/Projects/Vexere/web/vxrd	0	zsh	:
+pane	front-end	2	:vpassenger	0	:	0	:/Users/hoango7604/Projects/vpassenger	0	zsh	:
+pane	front-end	2	:vpassenger	0	:	1	:/Users/hoango7604/Projects/vpassenger	1	zsh	:
+pane	front-end	2	:vpassenger	0	:	2	:/Users/hoango7604/Projects/vpassenger	0	zsh	:
+pane	front-end	3	:tms	0	:	0	:/Users/hoango7604/Projects/Vexere/web/tms	0	zsh	:
+pane	front-end	3	:tms	0	:	1	:/Users/hoango7604/Projects/Vexere/web/tms	1	zsh	:
+pane	front-end	3	:tms	0	:	2	:/Users/hoango7604/Projects/Vexere/web/tms	0	zsh	:
+pane	front-end	4	:vconfig	0	:	0	:/Users/hoango7604/Projects/Vexere/web/vex-config	1	zsh	:
+pane	front-end	4	:vconfig	0	:	1	:/Users/hoango7604/Projects/Vexere/web/vex-config	0	zsh	:
+pane	front-end	5	:user-tracking	0	:-	0	:/Users/hoango7604/Projects/Vexere/backend/user-tracking-script	0	Vim	:/usr/local/Cellar/macvim/8.2-170/MacVim.app/Contents/MacOS/Vim -g -v
+pane	front-end	5	:user-tracking	0	:-	1	:/Users/hoango7604/Projects/Vexere/backend/user-tracking-script/build	1	zsh	:
+pane	front-end	5	:user-tracking	0	:-	2	:/Users/hoango7604/Projects/Vexere/backend/user-tracking-script	0	node	:npm exec serve  
+pane	learning	0	:grocery-store-be	0	:Z	0	:/Users/hoango7604/Projects/Learning/grocery-store/grocery-api	1	zsh	:
+pane	learning	0	:grocery-store-be	0	:Z	1	:/Users/hoango7604/Projects/Learning/grocery-store/grocery-api	0	zsh	:
+pane	learning	0	:grocery-store-be	0	:Z	2	:/Users/hoango7604/Projects/Learning/grocery-store/grocery-api	0	zsh	:
+pane	learning	1	:grocery-store-fe	0	:Z	0	:/Users/hoango7604/Projects/Learning/grocery-store/grocery-store-fe	1	zsh	:
+pane	learning	1	:grocery-store-fe	0	:Z	1	:/Users/hoango7604/Projects/Learning/grocery-store/grocery-store-fe	0	zsh	:
+pane	learning	1	:grocery-store-fe	0	:Z	2	:/Users/hoango7604/Projects/Learning/grocery-store/grocery-store-fe	0	zsh	:
+pane	learning	2	:setel-orders-service	1	:*Z	0	:/Users/hoango7604/Projects/Learning/setel-backend-assignment/orders-service	0	Vim	:/usr/local/Cellar/macvim/8.2-170/MacVim.app/Contents/MacOS/Vim -g -v
+pane	learning	2	:setel-orders-service	1	:*Z	1	:/Users/hoango7604/Projects/Learning/setel-backend-assignment/orders-service	1	node	:npm run start:dev   
+pane	learning	2	:setel-orders-service	1	:*Z	2	:/Users/hoango7604/Projects/Learning/grocery-store/grocery-api	0	zsh	:
+pane	learning	3	:setel-payments-service	0	:-	0	:/Users/hoango7604/Projects/Learning/setel-backend-assignment/payments-service	0	zsh	:
+pane	learning	3	:setel-payments-service	0	:-	1	:/Users/hoango7604/Projects/Learning/setel-backend-assignment/payments-service	1	node	:npm run start:dev   
+window	back-end	0	0	:-	19de,151x54,0,0[151x36,0,0,1,151x17,0,37{76x17,0,37,2,74x17,77,37,3}]
+window	back-end	1	0	:	e92b,151x54,0,0[151x37,0,0,4,151x16,0,38{76x16,0,38,5,74x16,77,38,6}]
+window	back-end	2	0	:Z	aaaf,151x54,0,0[151x37,0,0,7,151x16,0,38{76x16,0,38,8,74x16,77,38,9}]
+window	back-end	3	0	:	5afc,151x54,0,0[151x46,0,0,10,151x7,0,47,11]
+window	back-end	4	0	:	4781,151x54,0,0[151x45,0,0,12,151x8,0,46,13]
+window	back-end	5	1	:*Z	3a16,151x54,0,0[151x37,0,0,54,151x16,0,38{75x16,0,38,55,75x16,76,38,56}]
+window	clock	0	1	:*	5f53,151x54,0,0,14
+window	config	0	0	:-Z	214c,151x54,0,0[151x39,0,0,15,151x14,0,40,16]
+window	config	1	0	:	5f56,151x54,0,0,17
+window	config	2	0	:Z	a150,151x54,0,0[151x39,0,0,18,151x14,0,40,19]
+window	config	3	1	:*	9649,151x54,0,0[151x37,0,0,20,151x16,0,38,57]
+window	config	4	0	:	df50,151x54,0,0,21
+window	config	5	0	:	6148,151x54,0,0[151x39,0,0,22,151x14,0,40,23]
+window	config	6	0	:Z	714b,151x54,0,0[151x41,0,0,24,151x12,0,42,25]
+window	config	7	0	:	df55,151x54,0,0,26
+window	front-end	0	1	:*Z	32ae,151x54,0,0[151x41,0,0,27,151x12,0,42{74x12,0,42,28,76x12,75,42,29}]
+window	front-end	1	0	:	b3fe,151x54,0,0[151x44,0,0,30,151x9,0,45,31]
+window	front-end	2	0	:	07cf,151x54,0,0[151x44,0,0,32,151x9,0,45{77x9,0,45,33,73x9,78,45,34}]
+window	front-end	3	0	:	cad2,151x54,0,0[151x44,0,0,35,151x9,0,45{77x9,0,45,36,73x9,78,45,37}]
+window	front-end	4	0	:	b412,151x54,0,0[151x44,0,0,38,151x9,0,45,39]
+window	front-end	5	0	:-	23dd,151x54,0,0[151x44,0,0,40,151x9,0,45{75x9,0,45,41,75x9,76,45,42}]
+window	learning	0	0	:Z	3aba,151x54,0,0[151x42,0,0,43,151x11,0,43{75x11,0,43,44,75x11,76,43,45}]
+window	learning	1	0	:Z	12e5,151x54,0,0[151x36,0,0,46,151x17,0,37{75x17,0,37,47,75x17,76,37,48}]
+window	learning	2	1	:*Z	faa2,151x54,0,0[151x37,0,0,49,151x16,0,38{75x16,0,38,50,75x16,76,38,53}]
+window	learning	3	0	:-	9649,151x54,0,0[151x37,0,0,51,151x16,0,38,52]
+state	config	back-end

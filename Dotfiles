@@ -1,6 +1,7 @@
 .vimrc
 .zshrc
 .tmux.conf
+.tmux-resurrect
 .k9s
 .common-config
 .p10k.zsh
