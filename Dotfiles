@@ -9,3 +9,5 @@
 .gitconfig
 Brewfile
 Brewfile.lock.json
+dbeaver-configs.epf
+redis-configs.ano
