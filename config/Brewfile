@@ -10,6 +10,7 @@ tap "teamookla/speedtest"
 tap "xo/xo"
 
 # brew formulaes
+brew "ccls"
 brew "cmake"
 brew "fd"
 brew "fontconfig"

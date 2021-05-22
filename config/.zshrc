@@ -175,3 +175,6 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 export PATH="/usr/local/opt/llvm/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/llvm/lib"
 export CPPFLAGS="-I/usr/local/opt/llvm/include"
+
+# sqlite
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
