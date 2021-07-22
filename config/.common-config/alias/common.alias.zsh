@@ -1,7 +1,7 @@
 # IDE aliases
 alias c='code .'
 alias ws='webstorm .'
-alias vim='mvim -v'
+alias vim='mvim -v -S Session.vim'
 
 alias pvpssng='cd ~/Projects/vpassenger'
 alias pvxrd='cd ~/Projects/Vexere/web/vxrd'

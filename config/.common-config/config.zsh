@@ -1,6 +1,7 @@
 alias kafka-prod="source $COMMON_CONFIG_DIR/vxr/gcloud-kafka-prodrc.zsh"
 alias kafka-uat="source $COMMON_CONFIG_DIR/vxr/gcloud-kafka-uatrc.zsh"
-alias vexere="source $COMMON_CONFIG_DIR/vxr/gcloud-vexererc.zsh"
+alias vexere-prod="source $COMMON_CONFIG_DIR/vxr/gcloud-vexere-prodrc.zsh"
+alias vexere-uat="source $COMMON_CONFIG_DIR/vxr/gcloud-vexere-uatrc.zsh"
 alias webnhaxe="source $COMMON_CONFIG_DIR/vxr/gcloud-webnhaxerc.zsh"
 
 source $COMMON_CONFIG_DIR/alias/common.alias.zsh

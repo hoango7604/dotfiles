@@ -3,6 +3,7 @@ k9s:
   maxConnRetry: 5
   enableMouse: false
   headless: false
+  logoless: false
   crumbsless: false
   readOnly: false
   noIcons: false
@@ -13,8 +14,8 @@ k9s:
     fullScreenLogs: false
     textWrap: false
     showTime: false
-  currentContext: gke_vexere-218206_asia-southeast1-a_vexere
-  currentCluster: gke_vexere-218206_asia-southeast1-a_vexere
+  currentContext: gke_vexere-218206_asia-southeast1-a_uat-vexere
+  currentCluster: gke_vexere-218206_asia-southeast1-a_uat-vexere
   clusters:
     gke_gothic-context-296516_asia-southeast1_pack-n-go:
       namespace:
@@ -29,6 +30,26 @@ k9s:
         nodeShell: false
       shellPod:
         image: busybox:1.31
+        command: []
+        args: []
+        namespace: default
+        limits:
+          cpu: 100m
+          memory: 100Mi
+      portForwardAddress: localhost
+    gke_vexere-218206_asia-southeast1-a_uat-vexere:
+      namespace:
+        active: ""
+        favorites:
+        - default
+      view:
+        active: pod
+      featureGates:
+        nodeShell: false
+      shellPod:
+        image: busybox:1.31
+        command: []
+        args: []
         namespace: default
         limits:
           cpu: 100m
@@ -40,11 +61,13 @@ k9s:
         favorites:
         - default
       view:
-        active: configmaps
+        active: clusterrole
       featureGates:
         nodeShell: false
       shellPod:
         image: busybox:1.31
+        command: []
+        args: []
         namespace: default
         limits:
           cpu: 100m
