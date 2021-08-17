@@ -149,7 +149,7 @@ jdk() {
 }
 
 # vim
-export FZF_DEFAULT_COMMAND='rg --files'
+export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git}"'
 export FZF_DEFAULT_OPTS="--history=$HOME/.fzf_history \
                          --height 60% \
                          --layout=reverse \

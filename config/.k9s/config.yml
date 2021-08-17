@@ -57,11 +57,11 @@ k9s:
       portForwardAddress: localhost
     gke_vexere-218206_asia-southeast1-a_vexere:
       namespace:
-        active: default
+        active: ""
         favorites:
         - default
       view:
-        active: clusterrole
+        active: pod
       featureGates:
         nodeShell: false
       shellPod:
