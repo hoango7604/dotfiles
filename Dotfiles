@@ -11,3 +11,4 @@ Brewfile
 Brewfile.lock.json
 dbeaver-configs.epf
 redis-configs.ano
+vexere-vpn.ovpn
