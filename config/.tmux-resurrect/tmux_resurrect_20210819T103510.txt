@@ -1,0 +1,84 @@
+pane	back-end	0	:vapi	1	:*Z	0	:/Users/hoango7604/Projects/Vexere/backend/vapi	1	zsh	:
+pane	back-end	0	:vapi	1	:*Z	1	:/Users/hoango7604/Projects/Vexere/backend/vapi	0	zsh	:
+pane	back-end	0	:vapi	1	:*Z	2	:/Users/hoango7604/Projects/Vexere/backend/vapi	0	zsh	:
+pane	back-end	1	:vroute-api	0	:Z	0	:/Users/hoango7604/Projects/Vexere/backend/vroute-api	1	zsh	:
+pane	back-end	1	:vroute-api	0	:Z	1	:/Users/hoango7604/Projects/Vexere/backend/vroute-api	0	zsh	:
+pane	back-end	1	:vroute-api	0	:Z	2	:/Users/hoango7604/Projects/Vexere/backend/vroute-api	0	zsh	:
+pane	back-end	2	:vroute-consumer	0	:Z	0	:/Users/hoango7604/Projects/Vexere/backend/vroute-consumer	1	zsh	:
+pane	back-end	2	:vroute-consumer	0	:Z	1	:/Users/hoango7604/Projects/Vexere/backend/vroute-consumer	0	zsh	:
+pane	back-end	2	:vroute-consumer	0	:Z	2	:/Users/hoango7604/Projects/Vexere/backend/vroute-consumer	0	zsh	:
+pane	back-end	3	:user-profile	0	:	0	:/Users/hoango7604/Projects/Vexere/backend/user-profile-service	0	zsh	:
+pane	back-end	3	:user-profile	0	:	1	:/Users/hoango7604/Projects/Vexere/backend/user-profile-service	1	zsh	:
+pane	back-end	3	:user-profile	0	:	2	:/Users/hoango7604/Projects/Vexere/backend/user-profile-service	0	zsh	:
+pane	back-end	4	:vconfiguration	0	:	0	:/Users/hoango7604/Projects/Vexere/backend/vexere-configuration	0	zsh	:
+pane	back-end	4	:vconfiguration	0	:	1	:/Users/hoango7604/Projects/Vexere/backend/vexere-configuration	1	zsh	:
+pane	back-end	5	:vtracking	0	:	0	:/Users/hoango7604/Projects/Vexere/backend/vtracking	0	zsh	:
+pane	back-end	5	:vtracking	0	:	1	:/Users/hoango7604/Projects/Vexere/backend/vtracking	1	zsh	:
+pane	back-end	5	:vtracking	0	:	2	:/Users/hoango7604/Projects/Vexere/backend/vtracking	0	zsh	:
+pane	back-end	6	:ahk-consumer	0	:-	0	:/Users/hoango7604/Projects/Vexere/backend/ahk-consumer	0	zsh	:
+pane	back-end	6	:ahk-consumer	0	:-	1	:/Users/hoango7604/Projects/Vexere/backend/ahk-consumer	1	zsh	:
+pane	back-end	6	:ahk-consumer	0	:-	2	:/Users/hoango7604/Projects/Vexere/backend/ahk-consumer	0	zsh	:
+pane	back-end	7	:vgate	0	:	0	:/Users/hoango7604/Projects/Vexere/backend/vgate	0	zsh	:
+pane	back-end	7	:vgate	0	:	1	:/Users/hoango7604/Projects/Vexere/backend/vgate	1	zsh	:
+pane	clock	0	:clock	1	:*	0	:/Users/hoango7604	1	zsh	:
+pane	config	0	:vimrc	1	:*	0	:/Users/hoango7604/.config/nvim	0	Vim	:/usr/local/Cellar/macvim/8.2-171/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	config	0	:vimrc	1	:*	1	:/Users/hoango7604/.config/nvim	1	zsh	:
+pane	config	1	:zshrc	0	:-	0	:/Users/hoango7604	1	zsh	:
+pane	config	2	:common-config	0	:Z	0	:/Users/hoango7604/.common-config	1	zsh	:
+pane	config	2	:common-config	0	:Z	1	:/Users/hoango7604	0	zsh	:
+pane	config	3	:tmux-conf	0	:	0	:/Users/hoango7604	0	zsh	:
+pane	config	3	:tmux-conf	0	:	1	:/Users/hoango7604/.tmux-resurrect	1	zsh	:
+pane	config	4	:htop	0	:	0	:/Users/hoango7604/.config/nvim	1	htop	:htop
+pane	config	5	:dotfiles	0	:Z	0	:/Users/hoango7604/dotfiles	1	zsh	:
+pane	config	5	:dotfiles	0	:Z	1	:/Users/hoango7604/dotfiles	0	zsh	:
+pane	config	6	:terminal	0	:Z	0	:/Users/hoango7604	0	zsh	:
+pane	config	6	:terminal	0	:Z	1	:/Users/hoango7604	1	zsh	:
+pane	config	7	:hackintosh	0	:	0	:/Users/hoango7604	1	zsh	:
+pane	front-end	0	:nextvxr	1	:*Z	0	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	1	Vim	:/usr/local/Cellar/macvim/8.2-171/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	0	:nextvxr	1	:*Z	1	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	0	node	:node /Users/hoango7604/.nvm/versions/node/v12.22.1/bin/yarn dev
+pane	front-end	0	:nextvxr	1	:*Z	2	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	0	zsh	:
+pane	front-end	1	:vxrd	0	:-Z	0	:/Users/hoango7604/Projects/Vexere/web/vxrd	1	zsh	:
+pane	front-end	1	:vxrd	0	:-Z	1	:/Users/hoango7604/Projects/Vexere/web/vxrd	0	zsh	:
+pane	front-end	2	:vpassenger	0	:	0	:/Users/hoango7604/Projects/vpassenger	0	zsh	:
+pane	front-end	2	:vpassenger	0	:	1	:/Users/hoango7604/Projects/vpassenger	1	zsh	:
+pane	front-end	2	:vpassenger	0	:	2	:/Users/hoango7604/Projects/vpassenger	0	zsh	:
+pane	front-end	3	:tms	0	:Z	0	:/Users/hoango7604/Projects/Vexere/web/tms	1	zsh	:
+pane	front-end	3	:tms	0	:Z	1	:/Users/hoango7604/Projects/Vexere/web/tms	0	zsh	:
+pane	front-end	3	:tms	0	:Z	2	:/Users/hoango7604/Projects/Vexere/web/tms	0	zsh	:
+pane	front-end	4	:vconfig	0	:	0	:/Users/hoango7604/Projects/Vexere/web/vex-config	1	zsh	:
+pane	front-end	4	:vconfig	0	:	1	:/Users/hoango7604/Projects/Vexere/web/vex-config	0	zsh	:
+pane	front-end	5	:user-tracking	0	:Z	0	:/Users/hoango7604	1	zsh	:
+pane	front-end	5	:user-tracking	0	:Z	1	:/Users/hoango7604	0	zsh	:
+pane	front-end	5	:user-tracking	0	:Z	2	:/Users/hoango7604	0	zsh	:
+pane	learning	0	:nct-diem-danh-fe	1	:*Z	0	:/Users/hoango7604	1	zsh	:
+pane	learning	0	:nct-diem-danh-fe	1	:*Z	1	:/Users/hoango7604	0	zsh	:
+pane	learning	0	:nct-diem-danh-fe	1	:*Z	2	:/Users/hoango7604	0	zsh	:
+pane	learning	1	:nextjs-typescript-template	0	:-Z	0	:/Users/hoango7604	1	zsh	:
+pane	learning	1	:nextjs-typescript-template	0	:-Z	1	:/Users/hoango7604	0	zsh	:
+pane	learning	1	:nextjs-typescript-template	0	:-Z	2	:/Users/hoango7604	0	zsh	:
+window	back-end	0	1	:*Z	16b4,191x52,0,0[191x35,0,0,1,191x16,0,36{95x16,0,36,2,95x16,96,36,3}]
+window	back-end	1	0	:Z	e681,191x52,0,0[191x36,0,0,4,191x15,0,37{95x15,0,37,5,95x15,96,37,6}]
+window	back-end	2	0	:Z	a15d,191x52,0,0[191x36,0,0,7,191x15,0,37{92x15,0,37,8,98x15,93,37,9}]
+window	back-end	3	0	:	1e53,191x52,0,0[191x35,0,0,10,191x16,0,36{95x16,0,36,11,95x16,96,36,12}]
+window	back-end	4	0	:	b0e8,191x52,0,0[191x39,0,0,13,191x12,0,40,14]
+window	back-end	5	0	:	2659,191x52,0,0[191x36,0,0,15,191x15,0,37{95x15,0,37,16,95x15,96,37,17}]
+window	back-end	6	0	:-	bf56,191x52,0,0[191x35,0,0,18,191x16,0,36{95x16,0,36,19,95x16,96,36,20}]
+window	back-end	7	0	:	c2e6,191x52,0,0[191x35,0,0,21,191x16,0,36,22]
+window	clock	0	1	:*	dbd2,191x52,0,0,23
+window	config	0	1	:*	776b,191x52,0,0[191x38,0,0,24,191x13,0,39,25]
+window	config	1	0	:-	dbd5,191x52,0,0,26
+window	config	2	0	:Z	f76f,191x52,0,0[191x38,0,0,27,191x13,0,39,28]
+window	config	3	0	:	146e,191x52,0,0[191x36,0,0,29,191x15,0,37,30]
+window	config	4	0	:	5bd1,191x52,0,0,31
+window	config	5	0	:Z	3769,191x52,0,0[191x38,0,0,32,191x13,0,39,33]
+window	config	6	0	:Z	af6b,191x52,0,0[191x40,0,0,34,191x11,0,41,35]
+window	config	7	0	:	5bd6,191x52,0,0,36
+window	front-end	0	1	:*Z	1f59,191x52,0,0[191x35,0,0,37,191x16,0,36{95x16,0,36,38,95x16,96,36,39}]
+window	front-end	1	0	:-Z	f766,191x52,0,0[191x38,0,0,40,191x13,0,39,41]
+window	front-end	2	0	:	dffd,191x52,0,0[191x43,0,0,42,191x8,0,44{97x8,0,44,43,93x8,98,44,44}]
+window	front-end	3	0	:Z	468a,191x52,0,0[191x36,0,0,45,191x15,0,37{95x15,0,37,46,95x15,96,37,47}]
+window	front-end	4	0	:	00d3,191x52,0,0[191x43,0,0,48,191x8,0,44,49]
+window	front-end	5	0	:Z	74bb,191x52,0,0[191x38,0,0,50,191x13,0,39{95x13,0,39,51,95x13,96,39,52}]
+window	learning	0	1	:*Z	2659,191x52,0,0[191x36,0,0,53,191x15,0,37{95x15,0,37,54,95x15,96,37,55}]
+window	learning	1	0	:-Z	66bb,191x52,0,0[191x36,0,0,56,191x15,0,37{95x15,0,37,57,95x15,96,37,58}]
+state	config	front-end

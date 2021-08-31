@@ -30,12 +30,12 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 13 - ((12 * winheight(0) + 24) / 48)
+let s:l = 21 - ((20 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 13
-normal! 039|
+keepjumps 21
+normal! 013|
 tabnext 1
 badd +0 alias/common.alias.zsh
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
