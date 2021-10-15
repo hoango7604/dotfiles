@@ -11,7 +11,7 @@ alias gmtl="git mergetool"
 alias glg="git log"
 alias glgg="git log --graph --oneline"
 alias glgf="git log --graph --oneline -p --full-diff"
-alias gss="git status"
+alias gst="git status"
 alias gdiff="git-cola"
 git config --global alias.cob '!f() { git checkout -b "$1" && git push --set-upstream origin "$1"; }; f'
 git config --global alias.ac '!f() { git add -A && git commit -m "$1"; }; f'
@@ -27,12 +27,14 @@ alias gmc="git merge --continue"
 alias gmcp="git merge --continue && git push"
 alias gmab="git merge --abort"
 alias gpsu="gp --set-upstream origin"
-alias grsh="git reset --hard"
+alias grsh="git reset --hard && git clean -fd"
 alias gstl="git stash list"
 alias gstc="git stash clear"
 alias gsta="git stash apply"
 alias gstp="git stash push"
 alias gstpp="git stash pop"
+alias gun="git update-index --assume-unchanged"
+alias gno="git update-index --no-assume-unchanged"
 
 function gmp() { git merge "$1" && git push; }
 compdef _git gmp=git-branch

@@ -11,7 +11,7 @@ endif
 set shortmess=aoO
 argglobal
 %argdel
-edit alias/common.alias.zsh
+edit alias/git.alias.zsh
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -30,14 +30,15 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 21 - ((20 * winheight(0) + 24) / 48)
+let s:l = 14 - ((10 * winheight(0) + 25) / 51)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 21
-normal! 013|
+keepjumps 14
+normal! 09|
 tabnext 1
-badd +0 alias/common.alias.zsh
+badd +12 alias/common.alias.zsh
+badd +0 alias/git.alias.zsh
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
   silent exe 'bwipe ' . s:wipebuf
 endif

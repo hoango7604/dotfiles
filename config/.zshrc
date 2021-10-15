@@ -151,11 +151,11 @@ jdk() {
 # vim
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git}"'
 export FZF_DEFAULT_OPTS="--history=$HOME/.fzf_history \
-                         --height 60% \
+                         --height 80% \
                          --layout=reverse \
                          --border \
-                         --bind ctrl-d:preview-page-down,ctrl-u:preview-page-up,ctrl-e:preview-down,ctrl-y:preview-up \
-                         --bind ctrl-a:select-all,ctrl-z:deselect-all,ctrl-h:half-page-up,ctrl-l:half-page-down"
+                         --bind ctrl-f:preview-page-down,ctrl-b:preview-page-up,ctrl-e:preview-down,ctrl-y:preview-up \
+                         --bind ctrl-a:select-all,ctrl-d:deselect-all,ctrl-h:half-page-up,ctrl-l:half-page-down"
 
 # iterm
 export CLICOLOR=1
@@ -178,3 +178,12 @@ export CPPFLAGS="-I/usr/local/opt/llvm/include"
 
 # sqlite
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Setting for UTF-8 terminal support
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# lvim
+export PATH="$HOME/.local/bin:$PATH"

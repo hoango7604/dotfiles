@@ -1,0 +1,38 @@
+pane	back-end	0	1	:*Z	0	:/Users/hoango7604/Projects/Vexere/backend/vapi	0	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	0	1	:*Z	1	:/Users/hoango7604/Projects/Vexere/backend/vapi	1	node	:npm   
+pane	clock	0	1	:*	0	:/Users/hoango7604	1	zsh	:
+pane	config	0	1	:*Z	0	:/Users/hoango7604/.config/nvim	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	config	0	1	:*Z	1	:/Users/hoango7604/.config/nvim	0	zsh	:
+pane	config	1	0	:	0	:/Users/hoango7604	1	zsh	:
+pane	config	2	0	:	0	:/Users/hoango7604/.common-config	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	config	3	0	:-	0	:/Users/hoango7604	1	zsh	:
+pane	config	4	0	:	0	:/Users/hoango7604	1	zsh	:
+pane	config	5	0	:	0	:/Users/hoango7604	1	zsh	:
+pane	front-end	0	0	:-Z	0	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	0	0	:-Z	1	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	0	node	:node /Users/hoango7604/.nvm/versions/node/v16.8.0/bin/yarn dev
+pane	front-end	0	0	:-Z	2	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	0	zsh	:
+pane	front-end	1	1	:*Z	0	:/Users/hoango7604/Projects/Vexere/web/vxrd	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	1	1	:*Z	1	:/Users/hoango7604/Projects/Vexere/web/vxrd	0	zsh	:
+pane	front-end	1	1	:*Z	2	:/Users/hoango7604/Projects/Vexere/web/vxrd	0	zsh	:
+pane	front-end	2	0	:Z	0	:/Users/hoango7604/Projects/Vexere/web/tms2	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	2	0	:Z	1	:/Users/hoango7604/Projects/Vexere/web/tms2	0	zsh	:
+pane	learning	0	1	:*	0	:/Users/hoango7604	0	zsh	:
+pane	learning	0	1	:*	1	:/Users/hoango7604	0	zsh	:
+pane	learning	0	1	:*	2	:/Users/hoango7604	1	zsh	:
+pane	learning	1	0	:	0	:/Users/hoango7604	0	zsh	:
+pane	learning	1	0	:	1	:/Users/hoango7604	0	zsh	:
+pane	learning	1	0	:	2	:/Users/hoango7604	1	zsh	:
+window	back-end	0	:vapi	1	:*Z	ce42,191x55,0,0[191x37,0,0,70,191x17,0,38,1]	off
+window	clock	0	:zsh	1	:*	d765,80x23,0,0,26	on
+window	config	0	:vimrc	1	:*Z	a771,191x55,0,0[191x37,0,0,28,191x17,0,38,66]	off
+window	config	1	:zshrc	0	:	e1d8,191x55,0,0,29	off
+window	config	2	:common-config	0	:	61d1,191x55,0,0,31	off
+window	config	3	:dotfiles	0	:-	61d3,191x55,0,0,33	off
+window	config	4	:htop	0	:	61d4,191x55,0,0,34	off
+window	config	5	:terminal	0	:	61d6,191x55,0,0,36	off
+window	front-end	0	:nextvxr	0	:-Z	8043,191x55,0,0[191x37,0,0,67,191x17,0,38{95x17,0,38,42,95x17,96,38,69}]	off
+window	front-end	1	:vxrd	1	:*Z	5fd4,191x55,0,0[191x37,0,0,73,191x17,0,38{95x17,0,38,74,95x17,96,38,75}]	off
+window	front-end	2	:tms2	0	:Z	276e,191x55,0,0[191x37,0,0,72,191x17,0,38,47]	off
+window	learning	0	:zsh	1	:*	b799,80x23,0,0[80x1,0,0,57,80x1,0,2,58,80x19,0,4,59]	on
+window	learning	1	:zsh	0	:	60a3,191x55,0,0[191x1,0,0,60,191x1,0,2,61,191x51,0,4,62]	on
+state	front-end	back-end
