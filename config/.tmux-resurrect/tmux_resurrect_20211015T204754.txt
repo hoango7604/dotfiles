@@ -1,0 +1,59 @@
+pane	back-end	0	0	:	0	:/Users/hoango7604/Projects/Vexere/backend/vapi	0	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	0	0	:	1	:/Users/hoango7604/Projects/Vexere/backend/vapi	0	zsh	:
+pane	back-end	0	0	:	2	:/Users/hoango7604/Projects/Vexere/backend/vapi	1	zsh	:
+pane	back-end	1	0	:Z	0	:/Users/hoango7604/Projects/Vexere/backend/vroute-api	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	1	0	:Z	1	:/Users/hoango7604/Projects/Vexere/backend/vroute-api	0	zsh	:
+pane	back-end	1	0	:Z	2	:/Users/hoango7604/Projects/Vexere/backend/vroute-api	0	zsh	:
+pane	back-end	2	1	:*Z	0	:/Users/hoango7604/Projects/Vexere/backend/vroute-consumer	1	zsh	:
+pane	back-end	2	1	:*Z	1	:/Users/hoango7604/Projects/Vexere/backend/vroute-consumer	0	zsh	:
+pane	back-end	2	1	:*Z	2	:/Users/hoango7604/Projects/Vexere/backend/vroute-consumer	0	zsh	:
+pane	back-end	3	0	:-	0	:/Users/hoango7604/Projects/Vexere/backend/user-profile-service	0	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	3	0	:-	1	:/Users/hoango7604/Projects/Vexere/backend/user-profile-service	1	zsh	:
+pane	back-end	4	0	:	0	:/Users/hoango7604/Projects/Vexere/backend/vtracking	0	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	4	0	:	1	:/Users/hoango7604/Projects/Vexere/backend/vtracking	1	zsh	:
+pane	back-end	4	0	:	2	:/Users/hoango7604/Projects/Vexere/backend/vtracking	0	zsh	:
+pane	back-end	5	0	:Z	0	:/Users/hoango7604/Projects/Vexere/backend/vexere-configuration	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	5	0	:Z	1	:/Users/hoango7604/Projects/Vexere/backend/vexere-configuration	0	node	:npm   
+pane	back-end	5	0	:Z	2	:/Users/hoango7604/Projects/Vexere/backend/vexere-configuration	0	zsh	:
+pane	clock	0	1	:*	0	:/Users/hoango7604	1	zsh	:
+pane	config	0	0	:Z	0	:/Users/hoango7604/.config/nvim	1	zsh	:
+pane	config	0	0	:Z	1	:/Users/hoango7604/.config/nvim	0	zsh	:
+pane	config	1	0	:Z	0	:/Users/hoango7604	1	zsh	:
+pane	config	1	0	:Z	1	:/Users/hoango7604	0	zsh	:
+pane	config	2	0	:-	0	:/Users/hoango7604/.common-config	1	zsh	:
+pane	config	3	1	:*	0	:/Users/hoango7604	1	zsh	:
+pane	config	4	0	:	0	:/Users/hoango7604	1	zsh	:
+pane	config	5	0	:	0	:/Users/hoango7604/.iterm	1	zsh	:
+pane	front-end	0	1	:*	0	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	1	zsh	:
+pane	front-end	0	1	:*	1	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	0	zsh	:
+pane	front-end	0	1	:*	2	:/Users/hoango7604/Projects/Vexere/web/nextvxr-dev	0	zsh	:
+pane	front-end	1	0	:Z	0	:/Users/hoango7604/Projects/Vexere/web/vxrd	1	zsh	:
+pane	front-end	1	0	:Z	1	:/Users/hoango7604/Projects/Vexere/web/vxrd	0	zsh	:
+pane	front-end	1	0	:Z	2	:/Users/hoango7604/Projects/Vexere/web/vxrd	0	zsh	:
+pane	front-end	2	0	:-	0	:/Users/hoango7604/Projects/Vexere/web/tms2	0	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	2	0	:-	1	:/Users/hoango7604/Projects/Vexere/web/tms2	1	zsh	:
+pane	front-end	2	0	:-	2	:/Users/hoango7604/Projects/Vexere/web/tms2	0	zsh	:
+pane	front-end	3	0	:	0	:/Users/hoango7604/Projects/Vexere/web/tms	1	zsh	:
+pane	front-end	3	0	:	1	:/Users/hoango7604/Projects/Vexere/web/tms	0	zsh	:
+pane	front-end	3	0	:	2	:/Users/hoango7604/Projects/Vexere/web/tms	0	zsh	:
+pane	learning	1	1	:*Z	0	:/Users/hoango7604/Projects/SideProjects/crawl-data-ueh	1	zsh	:
+pane	learning	1	1	:*Z	1	:/Users/hoango7604/Projects/SideProjects/crawl-data-ueh	0	zsh	:
+window	back-end	0	:vapi	0	:	fa48,191x55,0,0[191x37,0,0,1,191x17,0,38{95x17,0,38,2,95x17,96,38,3}]	off
+window	back-end	1	:vroute-api	0	:Z	bbcc,191x55,0,0[191x37,0,0,4,191x17,0,38{95x17,0,38,5,95x17,96,38,6}]	off
+window	back-end	2	:vroute-consumer	1	:*Z	f846,191x55,0,0[191x37,0,0,7,191x17,0,38{95x17,0,38,39,95x17,96,38,40}]	off
+window	back-end	3	:user-profile	0	:-	f9d5,191x55,0,0[191x37,0,0,8,191x17,0,38,9]	off
+window	back-end	4	:vtracking	0	:	df0f,191x55,0,0[191x37,0,0,10,191x17,0,38{95x17,0,38,11,95x17,96,38,12}]	off
+window	back-end	5	:vconfiguration	0	:Z	1ff5,191x55,0,0[191x37,0,0,36,191x17,0,38{95x17,0,38,37,95x17,96,38,38}]	off
+window	clock	0	:zsh	1	:*	61d2,191x55,0,0,13	on
+window	config	0	:vimrc	0	:Z	676b,191x55,0,0[191x37,0,0,14,191x17,0,38,15]	off
+window	config	1	:zshrc	0	:Z	676e,191x55,0,0[191x37,0,0,16,191x17,0,38,17]	off
+window	config	2	:common-config	0	:-	61d7,191x55,0,0,18	off
+window	config	3	:dotfiles	1	:*	61d8,191x55,0,0,19	off
+window	config	4	:htop	0	:	e1cf,191x55,0,0,20	off
+window	config	5	:terminal	0	:	e1d0,191x55,0,0,21	off
+window	front-end	0	:nextvxr	1	:*	bf61,191x55,0,0[191x37,0,0,22,191x17,0,38{95x17,0,38,23,95x17,96,38,24}]	off
+window	front-end	1	:vxrd	0	:Z	ffc3,191x55,0,0[191x37,0,0,25,191x17,0,38{95x17,0,38,26,95x17,96,38,27}]	off
+window	front-end	2	:tms2	0	:-	e023,191x55,0,0[191x37,0,0,28,191x17,0,38{95x17,0,38,29,95x17,96,38,30}]	off
+window	front-end	3	:tms	0	:	5f51,191x55,0,0[191x37,0,0,31,191x17,0,38{95x17,0,38,32,95x17,96,38,33}]	off
+window	learning	1	:crawl-data-ueh	1	:*Z	e76c,191x55,0,0[191x37,0,0,34,191x17,0,38,35]	off
+state	back-end	config

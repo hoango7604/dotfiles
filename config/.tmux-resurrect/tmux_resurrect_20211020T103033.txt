@@ -1,0 +1,56 @@
+pane	back-end	0	1	:*	0	:/Users/hoa/Projects/Vexere/backend/vapi	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	1	0	:Z	0	:/Users/hoa/Projects/Vexere/backend/vroute-api	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	1	0	:Z	1	:/Users/hoa/Projects/Vexere/backend/vroute-api	0	zsh	:
+pane	back-end	1	0	:Z	2	:/Users/hoa/Projects/Vexere/backend/vroute-api	0	zsh	:
+pane	back-end	2	0	:	0	:/Users/hoa/Projects/Vexere/backend/vroute-consumer	0	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	2	0	:	1	:/Users/hoa/Projects/Vexere/backend/vroute-consumer	1	zsh	:
+pane	back-end	3	0	:	0	:/Users/hoa/Projects/Vexere/backend/user-profile-service	0	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	3	0	:	1	:/Users/hoa/Projects/Vexere/backend/user-profile-service	1	zsh	:
+pane	back-end	4	0	:	0	:/Users/hoa/Projects/Vexere/backend/vtracking	0	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	4	0	:	1	:/Users/hoa/Projects/Vexere/backend/vtracking	1	zsh	:
+pane	back-end	5	0	:	0	:/Users/hoa/Projects/Vexere/backend/vexere-configuration	0	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	5	0	:	1	:/Users/hoa/Projects/Vexere/backend/vexere-configuration	1	zsh	:
+pane	back-end	6	0	:-Z	0	:/Users/hoa/Projects/Vexere/backend/url-resolver-service	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	back-end	6	0	:-Z	1	:/Users/hoa/Projects/Vexere/backend/url-resolver-service	0	zsh	:
+pane	config	0	0	:-Z	0	:/Users/hoa/.config/nvim	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	config	0	0	:-Z	1	:/Users/hoa	0	zsh	:
+pane	config	1	0	:	0	:/Users/hoa	1	zsh	:
+pane	config	2	1	:*Z	0	:/Users/hoa	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim /Users/hoa/.tmux.conf
+pane	config	2	1	:*Z	1	:/Users/hoa	0	zsh	:
+pane	config	3	0	:	0	:/Users/hoa/dotfiles	1	zsh	:
+pane	config	4	0	:	0	:/Users/hoa	1	zsh	:
+pane	config	5	0	:Z	0	:/Users/hoa/.common-config	0	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	config	5	0	:Z	1	:/Users/hoa	1	zsh	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim ani-cli
+pane	config	7	0	:	0	:/Users/hoa	1	zsh	:
+pane	front-end	0	0	:Z	0	:/Users/hoa/Projects/Vexere/web/nextvxr-dev	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	0	0	:Z	1	:/Users/hoa/Projects/Vexere/web/nextvxr-dev	0	node	:node /Users/hoa/.nvm/versions/node/v16.11.1/bin/yarn dev
+pane	front-end	0	0	:Z	2	:/Users/hoa/Projects/Vexere/web/nextvxr-dev	0	zsh	:
+pane	front-end	1	0	:-	0	:/Users/hoa/Projects/Vexere/web/vxrd	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	2	1	:*Z	0	:/Users/hoa/Projects/Vexere/web/tms2	1	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	2	1	:*Z	1	:/Users/hoa/Projects/Vexere/web/tms2	0	node	:node /Users/hoa/.nvm/versions/node/v16.11.1/bin/yarn start
+pane	front-end	2	1	:*Z	2	:/Users/hoa/Projects/Vexere/web/tms2	0	zsh	:
+pane	front-end	3	0	:Z	0	:/Users/hoa/Projects/Vexere/web/tms	0	Vim	:/usr/local/Cellar/macvim/8.2-171_1/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	3	0	:Z	1	:/Users/hoa/Projects/Vexere/web/tms	1	zsh	:
+pane	front-end	4	0	:	0	:/Users/hoa/Projects/Vexere/web/user-tracking-script	1	zsh	:
+pane	front-end	5	0	:	0	:/Users/hoa/Projects/Vexere/web/vex-config	1	zsh	:
+window	back-end	0	:vapi	1	:*	c33e,191x55,0,0,1	off
+window	back-end	1	:vroute-api	0	:Z	d7a4,191x55,0,0[191x37,0,0,2,191x17,0,38{95x17,0,38,33,95x17,96,38,34}]	off
+window	back-end	2	:vroute-consumer	0	:	96ee,191x55,0,0[191x32,0,0,3,191x22,0,33,19]	off
+window	back-end	3	:user-profile	0	:	7d2f,191x55,0,0[191x37,0,0,4,191x17,0,38,18]	off
+window	back-end	4	:vtracking	0	:	fd2c,191x55,0,0[191x37,0,0,5,191x17,0,38,30]	off
+window	back-end	5	:vex-configuration	0	:	96ee,191x55,0,0[191x32,0,0,6,191x22,0,33,32]	off
+window	back-end	6	:url-resolver	0	:-Z	a76f,191x55,0,0[191x37,0,0,39,191x17,0,38,40]	off
+window	config	0	:vimrc	0	:-Z	5b12,96x55,0,0[96x37,0,0,7,96x17,0,38,27]	off
+window	config	1	:zshrc	0	:	c345,191x55,0,0,8	off
+window	config	2	:tmux-conf	1	:*Z	5b14,96x55,0,0[96x37,0,0,9,96x17,0,38,42]	off
+window	config	3	:dotfiles	0	:	e1d0,191x55,0,0,21	off
+window	config	4	:htop	0	:	61cf,191x55,0,0,10	off
+window	config	5	:common-config	0	:Z	a76e,191x55,0,0[191x37,0,0,28,191x17,0,38,41]	off
+window	config	7	:terminal	0	:	61d0,191x55,0,0,11	off
+window	front-end	0	:nextvxr	0	:Z	bf52,191x55,0,0[191x37,0,0,12,191x17,0,38{95x17,0,38,24,95x17,96,38,26}]	off
+window	front-end	1	:vxrd	0	:-	61d2,191x55,0,0,13	off
+window	front-end	2	:tms2	1	:*Z	be90,96x55,0,0[96x32,0,0,14,96x22,0,33{47x22,0,33,25,48x22,48,33,31}]	off
+window	front-end	3	:tms	0	:Z	cb2a,191x55,0,0[191x32,0,0,15,191x22,0,33,22]	off
+window	front-end	4	:user-tracking-script	0	:	61d5,191x55,0,0,16	off
+window	front-end	5	:vex-config	0	:	61d6,191x55,0,0,17	off
+state	config	front-end

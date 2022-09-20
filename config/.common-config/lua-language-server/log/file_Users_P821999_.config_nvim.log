@@ -1,0 +1,68 @@
+[12:02:22.752][info] [#0:/Users/P821999/.common-config/lua-language-server/main.lua:65]: Lua Lsp startup, root: 	/Users/P821999/.common-config/lua-language-server
+[12:02:22.753][info] [#0:/Users/P821999/.common-config/lua-language-server/main.lua:66]: ROOT:	/Users/P821999/.common-config/lua-language-server
+[12:02:22.753][info] [#0:/Users/P821999/.common-config/lua-language-server/main.lua:67]: LOGPATH:	/Users/P821999/.common-config/lua-language-server/log
+[12:02:22.753][info] [#0:/Users/P821999/.common-config/lua-language-server/main.lua:68]: METAPATH:	/Users/P821999/.common-config/lua-language-server/meta
+[12:02:22.754][info] [#0:/Users/P821999/.common-config/lua-language-server/main.lua:69]: VERSION:	3.4.2
+[12:02:22.785][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.776 MB
+        # 00 : 1.776 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:02:22.900][info] [#0:script/language.lua:137]: VSC language: en_AU
+[12:02:22.901][info] [#0:script/language.lua:138]: LS  language: en-us
+[12:02:22.901][info] [#0:script/workspace/workspace.lua:39]: Workspace init root: 	file:///Users/P821999/.config/nvim
+[12:02:22.901][info] [#0:script/workspace/workspace.lua:43]: Log path: 	/Users/P821999/.common-config/lua-language-server/log/file_Users_P821999_.config_nvim.log
+[12:02:22.908][info] [#0:script/workspace/workspace.lua:49]: Workspace create: 	file:///Users/P821999/.config/nvim
+[12:02:23.122][warn] [#0:script/config/loader.lua:113]: No config?	{}
+[12:02:23.123][warn] [#0:script/config/loader.lua:113]: No config?	{}
+[12:02:23.228][warn] [#0:script/config/loader.lua:113]: No config?	{}
+[12:02:23.228][info] [#0:script/provider/provider.lua:55]: Load config from client	fallback
+[12:02:23.228][info] [#0:script/provider/provider.lua:56]: nil
+[12:02:23.228][warn] [#0:script/config/loader.lua:113]: No config?	{}
+[12:02:23.228][info] [#0:script/provider/provider.lua:55]: Load config from client	fallback
+[12:02:23.229][info] [#0:script/provider/provider.lua:56]: nil
+[12:02:23.229][info] [#0:script/provider/completion.lua:43]: Enable completion.
+[12:02:23.335][info] [#0:script/library.lua:207]: Init builtin library at:	nil
+[12:02:23.367][info] [#0:script/library.lua:207]: Init builtin library at:	file:///Users/P821999/.config/nvim
+[12:02:23.384][info] [#0:script/plugin.lua:80]: plugin path:	nil
+[12:02:23.384][info] [#0:script/plugin.lua:80]: plugin path:	nil
+[12:02:23.384][info] [#0:script/workspace/workspace.lua:285]: Preload start:	file:///Users/P821999/.config/nvim
+[12:02:23.387][info] [#0:script/workspace/workspace.lua:291]: Scan files at:	file:///Users/P821999/.config/nvim
+[12:02:23.387][info] [#0:script/workspace/workspace.lua:285]: Preload start:	<fallback>
+[12:02:23.388][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///Users/P821999/.common-config/lua-language-server/meta/Lua%205.4%20en-us%20utf8
+[12:02:23.398][info] [#0:script/workspace/workspace.lua:307]: Scan library at:	file:///Users/P821999/.common-config/lua-language-server/meta/Lua%205.4%20en-us%20utf8
+[12:02:24.804][info] [#0:script/workspace/workspace.lua:327]: Found 11 files at:	<fallback>
+[12:02:24.804][info] [#0:script/workspace/loading.lua:152]: Load files from disk:	<fallback>
+[12:02:24.804][info] [#0:script/workspace/workspace.lua:327]: Found 37 files at:	file:///Users/P821999/.config/nvim
+[12:02:24.804][info] [#0:script/workspace/loading.lua:152]: Load files from disk:	file:///Users/P821999/.config/nvim
+[12:02:24.810][info] [#0:script/workspace/loading.lua:164]: Loaded files takes [0.007] sec: <fallback>
+[12:02:24.810][info] [#0:script/workspace/loading.lua:173]: Compile files takes [0.000] sec: <fallback>
+[12:02:24.810][info] [#0:script/workspace/loading.lua:174]: Loaded finish:	<fallback>
+[12:02:24.810][info] [#0:script/workspace/workspace.lua:329]: Preload finish at:	<fallback>
+[12:02:24.916][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
+[12:02:26.812][info] [#0:script/workspace/loading.lua:164]: Loaded files takes [0.018] sec: file:///Users/P821999/.config/nvim
+[12:02:26.812][info] [#0:script/workspace/loading.lua:173]: Compile files takes [0.000] sec: file:///Users/P821999/.config/nvim
+[12:02:26.812][info] [#0:script/workspace/loading.lua:174]: Loaded finish:	file:///Users/P821999/.config/nvim
+[12:02:26.813][info] [#0:script/workspace/workspace.lua:329]: Preload finish at:	file:///Users/P821999/.config/nvim
+[12:02:26.907][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [file:///Users/P821999/.config/nvim], files count:[37]
+[12:02:26.907][info] [#0:script/provider/diagnostic.lua:486]: Diagnostics scope [<fallback>], files count:[37]
+[12:02:26.908][warn] [#0:script/proto/proto.lua:122]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
+[12:02:27.042][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [file:///Users/P821999/.config/nvim] finished, takes [0.127] sec.
+[12:02:27.043][info] [#0:script/provider/diagnostic.lua:503]: Diagnostics scope [<fallback>] finished, takes [0.127] sec.

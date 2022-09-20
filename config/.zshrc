@@ -115,22 +115,23 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # The next line updates PATH for the Google Cloud SDK.
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+# source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 
 # The next line enables shell command completion for gcloud.
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+# source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
 # rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export COMMON_CONFIG_DIR="$HOME/.common-config"
 source $COMMON_CONFIG_DIR/config.zsh
 export PATH="/usr/local/opt/python@3.8/bin:$PATH"
+# alias python=python3
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
@@ -148,18 +149,18 @@ jdk() {
   java -version
 }
 
-# vim
-export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git}"'
-export FZF_DEFAULT_OPTS="--history=$HOME/.fzf_history \
-                         --height 80% \
+# fzf
+export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --no-ignore-vcs -g "!{node_modules,.git,.dist,dist,bin,.docz}"'
+export FZF_DEFAULT_OPTS="--height=90% \
                          --layout=reverse \
-                         --border \
                          --bind ctrl-f:preview-page-down,ctrl-b:preview-page-up,ctrl-e:preview-down,ctrl-y:preview-up \
                          --bind ctrl-a:select-all,ctrl-d:deselect-all,ctrl-h:half-page-up,ctrl-l:half-page-down"
+export BAT_THEME='base16'
 
 # iterm
 export CLICOLOR=1
-export TERM=xterm-256color
+export TERM="xterm-256color"
+export COLORTERM="truecolor"
 
 # vim
 export MYVIMRC="~/.vimrc"
@@ -175,6 +176,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 export PATH="/usr/local/opt/llvm/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/llvm/lib"
 export CPPFLAGS="-I/usr/local/opt/llvm/include"
+export PKG_CONFIG_PATH=/usr/lib/pkgconfig
 
 # sqlite
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
@@ -186,4 +188,15 @@ export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 # lvim
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/local/bin:$PATH"
+
+# macvim
+export PATH="/Applications/MacVim.app/Contents/bin:$PATH"
+export PATH=$PATH:$(yarn global bin)
+
+# tabtab source for packages
+# uninstall by removing these lines
+[[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
+
+export NODE_TLS_REJECT_UNAUTHORIZED=1
+export LOAN_STRUCTURE_PATH=/Users/P821999/temp/loan-structure-service

@@ -1,7 +1,16 @@
 # IDE aliases
-alias c='code .'
-alias ws='webstorm .'
-alias vim='mvim -v -S Session.vim'
+alias c="code ."
+alias ws="webstorm ."
+alias vim="mvim -v"
+alias vims="mvim -v -S Session.vim"
+alias v="vim"
+alias vs="vims"
+alias vz="v ~/.zshrc"
+alias vt="v ~/.tmux.conf"
+alias vv="cd ~/.config/vim && vs"
+alias vimdiff="mvimdiff -v"
+alias ssh="TERM=xterm-256color ssh"
+alias ls="logo-ls"
 
 alias ta='tmux attach'
 alias work='cd ~/Projects/Vexere'
@@ -9,7 +18,7 @@ alias side='cd ~/Projects/SideProjects'
 alias vimconf='cd ~/.config/nvim'
 alias commonconf='cd ~/.common-config'
 alias dotfiles='cd ~/dotfiles'
-alias refresh='source ~/.zshrc'
+alias soz='source ~/.zshrc'
 
 alias pvpssng='cd ~/Projects/vpassenger'
 alias pintn='cd ~/Projects/Vexere/internal/vxr-shared-config'
@@ -40,3 +49,6 @@ alias and-nx-st="emulator -avd Nexus_4_API_29"
 alias rn-st="npx react-native start"
 alias rn-ios="npx react-native run-ios"
 alias rn-and="npx react-native run-android"
+
+# alias for rosetta
+alias rosetta="arch -x86_64 zsh"

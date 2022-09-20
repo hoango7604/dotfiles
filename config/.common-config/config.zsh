@@ -12,5 +12,7 @@ source $COMMON_CONFIG_DIR/alias/cloudflare.alias.zsh
 source $COMMON_CONFIG_DIR/alias/redis.alias.zsh
 source $COMMON_CONFIG_DIR/alias/git.alias.zsh
 source $COMMON_CONFIG_DIR/alias/kafka.alias.zsh
+source $COMMON_CONFIG_DIR/alias/nab.alias.zsh
+source $COMMON_CONFIG_DIR/alias/keyboard-mapping.alias.zsh
 
 export PATH=$PATH:$COMMON_CONFIG_DIR/bin

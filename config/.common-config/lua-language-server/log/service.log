@@ -1,0 +1,31 @@
+[12:02:22.752][info] [#0:/Users/P821999/.common-config/lua-language-server/main.lua:65]: Lua Lsp startup, root: 	/Users/P821999/.common-config/lua-language-server
+[12:02:22.753][info] [#0:/Users/P821999/.common-config/lua-language-server/main.lua:66]: ROOT:	/Users/P821999/.common-config/lua-language-server
+[12:02:22.753][info] [#0:/Users/P821999/.common-config/lua-language-server/main.lua:67]: LOGPATH:	/Users/P821999/.common-config/lua-language-server/log
+[12:02:22.753][info] [#0:/Users/P821999/.common-config/lua-language-server/main.lua:68]: METAPATH:	/Users/P821999/.common-config/lua-language-server/meta
+[12:02:22.754][info] [#0:/Users/P821999/.common-config/lua-language-server/main.lua:69]: VERSION:	3.4.2
+[12:02:22.785][info] [#0:script/service/service.lua:141]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.776 MB
+        # 00 : 1.776 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:02:22.900][info] [#0:script/language.lua:137]: VSC language: en_AU
+[12:02:22.901][info] [#0:script/language.lua:138]: LS  language: en-us
+[12:02:22.901][info] [#0:script/workspace/workspace.lua:39]: Workspace init root: 	file:///Users/P821999/.config/nvim
+[12:02:22.901][info] [#0:script/workspace/workspace.lua:43]: Log path: 	/Users/P821999/.common-config/lua-language-server/log/file_Users_P821999_.config_nvim.log
