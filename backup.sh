@@ -1,6 +1,5 @@
 #!/bin/sh
 
-rm -rf ./config/*
 git pull origin master
 while read f; do
   echo "Backup file $f..."

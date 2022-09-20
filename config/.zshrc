@@ -197,6 +197,3 @@ export PATH=$PATH:$(yarn global bin)
 # tabtab source for packages
 # uninstall by removing these lines
 [[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
-
-export NODE_TLS_REJECT_UNAUTHORIZED=1
-export LOAN_STRUCTURE_PATH=/Users/P821999/temp/loan-structure-service
