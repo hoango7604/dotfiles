@@ -7,7 +7,7 @@ alias v="vim"
 alias vs="vims"
 alias vz="v ~/.zshrc"
 alias vt="v ~/.tmux.conf"
-alias vv="cd ~/.config/vim && vs"
+alias vv="cd ~/.config/nvim && vs"
 alias vimdiff="mvimdiff -v"
 alias ssh="TERM=xterm-256color ssh"
 

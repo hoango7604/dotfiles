@@ -18,8 +18,8 @@ badd +1 config/.tmux.conf
 badd +152 config/.zshrc
 badd +1 Dotfiles
 badd +1 config/vexere-vpn.ovpn
-badd +2 backup.sh
-badd +3 restore.sh
+badd +1 backup.sh
+badd +1 restore.sh
 argglobal
 %argdel
 edit Dotfiles
@@ -77,11 +77,11 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 let &fdl = &fdl
-let s:l = 4 - ((3 * winheight(0) + 25) / 51)
+let s:l = 12 - ((11 * winheight(0) + 25) / 51)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 4
+keepjumps 12
 normal! 0
 lcd ~/dotfiles
 wincmd w
@@ -105,6 +105,7 @@ normal! zt
 keepjumps 13
 normal! 02|
 wincmd w
+2wincmd w
 exe 'vert 1resize ' . ((&columns * 63 + 95) / 191)
 exe 'vert 2resize ' . ((&columns * 63 + 95) / 191)
 exe 'vert 3resize ' . ((&columns * 63 + 95) / 191)
