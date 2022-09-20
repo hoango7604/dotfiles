@@ -10,7 +10,6 @@ alias vt="v ~/.tmux.conf"
 alias vv="cd ~/.config/vim && vs"
 alias vimdiff="mvimdiff -v"
 alias ssh="TERM=xterm-256color ssh"
-alias ls="logo-ls"
 
 alias ta='tmux attach'
 alias work='cd ~/Projects/Vexere'
