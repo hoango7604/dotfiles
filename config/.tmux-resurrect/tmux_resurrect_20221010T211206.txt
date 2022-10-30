@@ -1,0 +1,22 @@
+pane	config	0	1	:*Z	0	:/Users/hoa/.config/nvim	1	zsh	:
+pane	config	0	1	:*Z	1	:/Users/hoa/.vim	0	zsh	:
+pane	config	1	0	:	0	:/Users/hoa	1	zsh	:
+pane	config	2	0	:Z	0	:/Users/hoa	1	zsh	:
+pane	config	2	0	:Z	1	:/Users/hoa	0	zsh	:
+pane	config	3	0	:	0	:/Users/hoa/dotfiles	1	zsh	:
+pane	config	4	0	:	0	:/Users/hoa	1	zsh	:
+pane	config	5	0	:Z	0	:/Users/hoa/.common-config	1	zsh	:
+pane	config	5	0	:Z	1	:/Users/hoa	0	zsh	:
+pane	config	7	0	:-	0	:/Users/hoa	1	zsh	:
+pane	front-end	1	1	:*	0	:/Users/hoa/Projects/DalangLearningApp	1	Vim	:/usr/local/Cellar/macvim/9.0.0065/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	1	1	:*	1	:/Users/hoa/Projects/DalangLearningApp	0	node	:ionic  
+pane	front-end	1	1	:*	2	:/Users/hoa/Projects/DalangLearningApp	0	zsh	:
+window	config	0	:vimrc	1	:*Z	e827,191x52,0,0[191x36,0,0,1,191x15,0,37,12]	off
+window	config	1	:zshrc	0	:	b73f,191x52,0,0,2	off
+window	config	2	:tmux-conf	0	:Z	28c6,191x52,0,0[191x35,0,0,3,191x16,0,36,4]	off
+window	config	3	:dotfiles	0	:	b742,191x52,0,0,5	off
+window	config	4	:htop	0	:	b743,191x52,0,0,6	off
+window	config	5	:common-config	0	:Z	28d0,191x52,0,0[191x35,0,0,7,191x16,0,36,8]	off
+window	config	7	:terminal	0	:-	b746,191x52,0,0,9	off
+window	front-end	1	:dalang_learning_app	1	:*	d49b,191x52,0,0[191x35,0,0,10,191x16,0,36{99x16,0,36,11,91x16,100,36,13}]	off
+state	front-end	config

@@ -1,0 +1,29 @@
+pane	config	0	0	:-Z	0	:/Users/hoa/.config/nvim	1	zsh	:
+pane	config	0	0	:-Z	1	:/Users/hoa/.vim	0	zsh	:
+pane	config	1	0	:	0	:/Users/hoa	1	zsh	:
+pane	config	2	0	:Z	0	:/Users/hoa	1	zsh	:
+pane	config	2	0	:Z	1	:/Users/hoa	0	zsh	:
+pane	config	3	0	:	0	:/Users/hoa/dotfiles	1	zsh	:
+pane	config	4	0	:	0	:/Users/hoa	1	zsh	:
+pane	config	5	0	:Z	0	:/Users/hoa/.common-config	1	zsh	:
+pane	config	5	0	:Z	1	:/Users/hoa	0	zsh	:
+pane	config	7	1	:*	0	:/Users/hoa	1	zsh	:
+pane	front-end	0	0	:-Z	0	:/Users/hoa/Projects/DalangLearningApp	1	Vim	:/usr/local/Cellar/macvim/9.0.0065/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	0	0	:-Z	1	:/Users/hoa/Projects/DalangLearningApp	0	zsh	:
+pane	front-end	0	0	:-Z	2	:/Users/hoa/Projects/DalangLearningApp	0	zsh	:/Users/hoa/.cache/gitstatus/gitstatusd-darwin-x86_64 -G v1.5.1 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 16
+pane	front-end	1	1	:*Z	0	:/Users/hoa/Projects/DalangGathering	1	Vim	:/usr/local/Cellar/macvim/9.0.0065/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	front-end	1	1	:*Z	1	:/Users/hoa/Projects/DalangGathering	0	zsh	:
+pane	werewolf-online	0	1	:*Z	0	:/Users/hoa/Projects/werewolf-online/wolfgame-api	1	Vim	:/usr/local/Cellar/macvim/9.0.0065/MacVim.app/Contents/MacOS/Vim -g -v -S Session.vim
+pane	werewolf-online	0	1	:*Z	1	:/Users/hoa/Projects/werewolf-online/wolfgame-api	0	zsh	:
+pane	werewolf-online	0	1	:*Z	2	:/Users/hoa/Projects/werewolf-online/wolfgame-api	0	zsh	:
+window	config	0	:vimrc	0	:-Z	e827,191x52,0,0[191x36,0,0,1,191x15,0,37,12]	off
+window	config	1	:zshrc	0	:	b73f,191x52,0,0,2	off
+window	config	2	:tmux-conf	0	:Z	28c6,191x52,0,0[191x35,0,0,3,191x16,0,36,4]	off
+window	config	3	:dotfiles	0	:	b742,191x52,0,0,5	off
+window	config	4	:htop	0	:	b743,191x52,0,0,6	off
+window	config	5	:common-config	0	:Z	28d0,191x52,0,0[191x35,0,0,7,191x16,0,36,8]	off
+window	config	7	:terminal	1	:*	b746,191x52,0,0,9	off
+window	front-end	0	:dalang_learning_app	0	:-Z	26b7,191x52,0,0[191x36,0,0,18,191x15,0,37{95x15,0,37,11,95x15,96,37,19}]	off
+window	front-end	1	:dalang-gathering	1	:*Z	146b,191x52,0,0[191x36,0,0,15,191x15,0,37,14]	off
+window	werewolf-online	0	:backend	1	:*Z	c5c5,191x52,0,0[191x36,0,0,20,191x15,0,37{95x15,0,37,21,95x15,96,37,22}]	off
+state	werewolf-online	front-end

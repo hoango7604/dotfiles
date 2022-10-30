@@ -7,3 +7,5 @@
 .p10k.zsh
 .iterm
 .gitconfig
+Brewfile
+Brewfile.lock.json

@@ -4,7 +4,7 @@ pane	config	1	0	:	0	:/Users/hoa	1	zsh	:
 pane	config	2	0	:Z	0	:/Users/hoa	1	zsh	:
 pane	config	2	0	:Z	1	:/Users/hoa	0	zsh	:
 pane	config	3	1	:*Z	0	:/Users/hoa/dotfiles	0	Vim	:/usr/local/Cellar/macvim/9.0.472_1/MacVim.app/Contents/MacOS/Vim -g -v
-pane	config	3	1	:*Z	1	:	1	zsh	:xargs -I _ brew install --cask _ --force
+pane	config	3	1	:*Z	1	:/Users/hoa	1	zsh	:
 pane	config	3	1	:*Z	2	:/Users/hoa	0	zsh	:
 pane	config	4	0	:	0	:/Users/hoa	1	zsh	:
 pane	config	5	0	:	0	:/Users/hoa/.common-config	1	zsh	:
